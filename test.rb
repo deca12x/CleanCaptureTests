@@ -32,4 +32,4 @@ def compare(one, two, dup)
   # When a match is found, check for match in following array and so on until no match, to find length of match
 end
 
-p compare(reference_sentence, some_plagiarism, 3)
+p compare(reference_sentence, some_plagiarism, 10)

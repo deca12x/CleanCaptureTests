@@ -18,7 +18,7 @@ class Website
   private
 
   def scrape(page)
-    html_string = "#{url}#{page}"
+    html_string = "#{@url}#{page}"
     html_parsed = Nokogiri::HTML(URI.open(html_string).read)
     sentences = []
     html_parsed.search('p').each { |element| sentences << element.text.strip }

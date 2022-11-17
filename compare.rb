@@ -14,3 +14,6 @@ tr_pages = ['', 'services', 'portfolio', 'blog', 'about', 'loop', 'contact']
 
 cc = Website.new(cc_url)
 tr = Website.new(tr_url)
+
+
+app(website_1, website_2, 3)
